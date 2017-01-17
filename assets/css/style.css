@@ -1,0 +1,29 @@
+body {
+	background-image: url(http://www.subtlepatterns.com/submit/upload/sneaker-mesh-fabric.png);
+}
+
+.your-name {
+	color: #ffffff;
+	background-color: #4aaaa5;
+}
+
+#profile-pic {
+	width: 250px;
+	height: 250px;
+}
+
+/* test code below */
+
+* {
+	margin: 0;
+}
+html, body {
+	height: 100%;
+}
+.main-section {
+	min-height: 100%;
+	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
+}
+.footer, .push {
+	height: 4em; /* '.push' must be the same height as 'footer' */
+}
