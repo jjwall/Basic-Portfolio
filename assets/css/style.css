@@ -1,15 +1,144 @@
 body {
 	background-image: url(http://www.subtlepatterns.com/submit/upload/sneaker-mesh-fabric.png);
+	font-style: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
+}
+
+.header-div {
+	background-color: #ffffff;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color: #dddddd;
+	padding-top: 20px;
 }
 
 .your-name {
 	color: #ffffff;
 	background-color: #4aaaa5;
+	padding: 15px 20px 15px 40px;
+	margin-top: 20px;
+	margin: 0px 805px 0px 71px;
+	width: 165px;
+}
+
+.navigation {
+	position: absolute;
+	padding: 25px 40px 25px 0px;
+	right: 50px;
+	left: 725px;
+	top: 10px;
+	width: 250px;
+	/*width and left cause this div to stay put,
+	main content might too wide, but for now its fine*/
+	background-color: #ffffff;
+}
+
+.about-button {
+	float: left;
+	clear: all;
+	background-color: #ffffff;
+	padding: 0px 10px 0px 10px;
+	border-right-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+}
+
+.port-button {
+	float: left;
+	clear: all;
+	background-color: #ffffff;
+	padding: 0px 10px 0px 10px;
+	border-right-style: solid;
+	border-color: #dddddd;
+	border-width: 1px;
+}
+
+.contact-button {
+	float: left;
+	clear: all;
+	background-color: #ffffff;
+	padding: 0px 10px 0px 10px;
+}
+
+a:link {
+	color: #777777;
+}
+
+a:visited { 
+	color: #777777;
+}
+
+.content {
+	width: 960px;
+}
+
+.main-font {
+	background-color: #ffffff;
+	color: #4aaaa5;
+	padding: 20px 0px 15px 0px;
+	border-bottom-style: solid;
+	border-color: #dddddd;
+	margin: 0px 20px 0px 20px;
+}
+
+.main-content {
+	background-color: #ffffff;
+	padding: 0px 15px 0px 15px;
+	width: 650px;
+	float: left;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	margin-top: 30px;
+	clear: all;
 }
 
 #profile-pic {
-	width: 250px;
-	height: 250px;
+	padding: 15px 10px 10px 20px;
+	width: 150px;
+	height: 150px;
+	float: left;
+}
+
+#paragraph {
+	padding: 5px 0px 15px 20px;
+	line-height: 200%;
+	color: #777777;
+}
+
+.connect-font {
+	background-color: #ffffff;
+	color: #4aaaa5;
+	text-align: center;
+	padding: 20px 0px 15px 0px;
+	border-bottom-style: solid;
+	border-width: 2px;
+	border-color: #dddddd;
+	margin: 0px 15px 0px 15px;
+}
+
+.connect {
+	background-color: #ffffff;
+	float: left;
+	width: 210px;
+	margin-left: 40px;
+	padding: 0px 10px 50px 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #dddddd;
+	margin-top: 30px;
+	clear: all;
+
+}
+
+.footer {
+	background-color: #666666;
+	text-align: center;
+	color: #ffffff;
+	font-size: 10;
+	padding: 40px 0px 15px 0px;
+	border-top-style: solid;
+	border-width: 7px;
+	border-color: #4aaaa5;
 }
 
 /* test code below */
@@ -20,8 +149,9 @@ body {
 html, body {
 	height: 100%;
 }
-.main-section {
-	min-height: 100%;
+.content {
+	min-height: 88%;
+	/* 100% was original */
 	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
 }
 .footer, .push {
