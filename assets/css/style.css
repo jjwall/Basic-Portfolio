@@ -3,6 +3,10 @@ body {
 	font-style: "Arial", "Helvetica Neue", "Helvetica", "sans-serif";
 }
 
+header, footer {
+	font-family: "Georgia", "Times", "Times New Roman", "serif";
+}
+
 .header-div {
 	background-color: #ffffff;
 	border-bottom-style: solid;
@@ -17,7 +21,7 @@ body {
 	padding: 15px 20px 15px 40px;
 	margin-top: 20px;
 	margin: 0px 805px 0px 71px;
-	width: 165px;
+	width: 200px;
 }
 
 .navigation {
@@ -25,11 +29,11 @@ body {
 	padding: 25px 40px 25px 0px;
 	right: 50px;
 	left: 725px;
-	top: 10px;
+	top: 7px;
 	width: 250px;
 	/*width and left cause this div to stay put,
 	main content might too wide, but for now its fine*/
-	background-color: #ffffff;
+	background-color: transparent;
 }
 
 .about-button {
@@ -83,7 +87,8 @@ a:visited {
 .main-content {
 	background-color: #ffffff;
 	padding: 0px 15px 0px 15px;
-	width: 650px;
+	width: 610px;
+	/* width was 650 to begin...*/
 	float: left;
 	border-style: solid;
 	border-width: 1px;
@@ -97,12 +102,79 @@ a:visited {
 	width: 150px;
 	height: 150px;
 	float: left;
+	clear: all;
 }
 
 #paragraph {
 	padding: 5px 0px 15px 20px;
 	line-height: 200%;
 	color: #777777;
+}
+
+/*place CSS for Portfolio here*/
+
+#box1 {
+	padding: 15px 10px 10px 20px;
+	float: left;
+	clear: all;
+}
+
+#scratch-game {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 15px 0px 15px 0px;
+	width: 250px;
+	text-align: center;
+	top: 320px;
+}
+
+#box2 {
+	padding: 15px 0px 10px 60px;
+	float: left;
+	clear: all;
+}
+
+#soundcloud {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 15px 0px 15px 0px;
+	width: 250px;
+	text-align: center;
+	top: 320px;
+}
+
+#box3 {
+	padding: 15px 10px 10px 20px;
+	float: left;
+	clear: all;
+}
+
+#cycle {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 15px 0px 15px 0px;
+	width: 250px;
+	text-align: center;
+	top: 537px;
+}
+
+#box4 {
+	padding: 15px 0px 10px 60px;
+	float: left;
+	clear: all;
+}
+
+#city {
+	position: absolute;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	padding: 15px 0px 15px 0px;
+	width: 250px;
+	text-align: center;
+	top: 537px;
 }
 
 .connect-font {
@@ -121,7 +193,7 @@ a:visited {
 	float: left;
 	width: 210px;
 	margin-left: 40px;
-	padding: 0px 10px 50px 10px;
+	padding: 0px 10px 30px 10px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: #dddddd;
@@ -130,11 +202,29 @@ a:visited {
 
 }
 
+.github {
+	padding: 20px 10px 0px 5px;
+	float: left;
+	clear: all;
+}
+
+.linkedin {
+	padding: 20px 10px 0px 0px;
+	float: left;
+	clear: all;
+}
+
+.stack-overflow {
+	padding: 20px 0px 0px 0px;
+	float: left;
+	clear: all;
+}
+
 .footer {
 	background-color: #666666;
 	text-align: center;
 	color: #ffffff;
-	font-size: 10;
+	font-size: 10px;
 	padding: 40px 0px 15px 0px;
 	border-top-style: solid;
 	border-width: 7px;
@@ -150,7 +240,7 @@ html, body {
 	height: 100%;
 }
 .content {
-	min-height: 88%;
+	min-height: 93%;
 	/* 100% was original */
 	margin: 0 auto -155px; /* the bottom margin is the negative value of the footer's height */
 }
