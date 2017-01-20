@@ -97,6 +97,8 @@ a:visited {
 	clear: all;
 }
 
+/* CSS for index below */
+
 #profile-pic {
 	padding: 15px 10px 10px 20px;
 	width: 150px;
@@ -111,7 +113,7 @@ a:visited {
 	color: #777777;
 }
 
-/*place CSS for Portfolio here*/
+/*CSS for Portfolio below*/
 
 #box1 {
 	padding: 15px 10px 10px 20px;
@@ -177,6 +179,41 @@ a:visited {
 	top: 537px;
 }
 
+/*CSS for contact below*/
+
+#name {
+	padding: 15px 10px 10px 20px;
+	color: #777777;
+}
+
+#name-input {
+	padding-left: 20px;
+}
+
+#email {
+	padding: 15px 10px 10px 20px;
+	color: #777777;
+}
+
+#email-input {
+	padding-left: 20px;
+}
+
+#message {
+	padding: 15px 10px 10px 20px;
+	color: #777777;
+}
+
+#message-input {
+	padding: 0px 0px 10px 20px;
+}
+
+#submit {
+	padding: 0px 0px 20px 20px;
+}
+
+/* CSS for connect content below */
+
 .connect-font {
 	background-color: #ffffff;
 	color: #4aaaa5;
@@ -231,7 +268,7 @@ a:visited {
 	border-color: #4aaaa5;
 }
 
-/* test code below */
+/* footer specific code below */
 
 * {
 	margin: 0;
